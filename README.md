@@ -1,6 +1,8 @@
 # thrust_stand
 
-Using an arduino to read data from a NAU7802. The data is piped to a python program over COM.  
+- Arduino reads force data from the NAU7802
+- Arduino reads RPM (and others) from a Oneshot ESC over the dedicated telemetry line
+- Python program reads the Arduino data over serial and records it to a .csv file for later analysis
 
 ## Our Thrust stand and an Owen
 ![owen](/owen.jpg)
